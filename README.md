@@ -3,9 +3,9 @@ Work by college
 
 ## 課程資料
 
-- [電腦圖學導論實習](./電腦圖學導論實習)
+- [Laboratory of Introduction to Computer Graphics](./Laboratory of Introduction to Computer Graphics)
 
 ## Course materials
 
-- [電腦圖學導論實習](./電腦圖學導論實習)
+- [Laboratory of Introduction to Computer Graphics](./Laboratory of Introduction to Computer Graphics)
 - [OOP](./OOP)

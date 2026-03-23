@@ -1,6 +1,6 @@
-# 電腦圖學導論實習
+# Laboratory of Introduction to Computer Graphics
 
-這個資料夾整理了電腦圖學導論實習的作業與專案內容。
+This folder contains coursework and projects for Laboratory of Introduction to Computer Graphics.
 
 ## 目錄
 
