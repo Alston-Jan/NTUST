@@ -1,0 +1,18 @@
+const int n = 10;
+int sum = 0;
+
+void main()
+{
+    int index;
+    for (index = 1; index <= n; index++) {
+        sum = sum + index;
+    }
+    print "The sum is ";
+    println sum;
+
+    foreach (index : n .. 1) {
+        sum = sum + index;
+    }
+    print "The total sum is ";
+    println sum;
+}

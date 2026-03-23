@@ -1,0 +1,12 @@
+class test8_param_index {
+method public static int add(int, int)
+max_stack 15
+max_locals 15
+{
+iload 0
+iload 1
+iadd
+ireturn
+}
+/* Error recovery: forced class closure */
+}

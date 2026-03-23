@@ -1,0 +1,11 @@
+pa2scheme1.scm
+input : 
+(palindrome (list 'a 'b 'c) )
+output : 
+(a b c c b a)
+=====================================
+pa2scheme2.scm
+input : 
+(dbl_atm 'a '(a (b c a (a d))))
+output : 
+(a a (b c a a (a a d)))

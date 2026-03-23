@@ -1,0 +1,15 @@
+fun main() {
+    var i: int = 10;
+    var j: real = 3.1415;
+    var k: int = i + j;
+    var l: real = i + j;
+    print(k);
+    print(l);
+    var arr: real[3] = {1.1, 2.2, 3.3};
+    print(arr[1]);
+    println(123.456);
+    for (var idx: int = 0; idx < 3; idx = idx + 1) {
+        print(arr[idx]);
+        print("\n");
+    }
+}

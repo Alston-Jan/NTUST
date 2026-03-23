@@ -1,0 +1,3 @@
+class type_mismatch {
+/* Error recovery: forced class closure */
+}

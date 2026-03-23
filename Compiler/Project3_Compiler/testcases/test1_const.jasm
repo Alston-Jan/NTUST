@@ -1,0 +1,4 @@
+class test1_const {
+sipush 42
+/* Error recovery: forced class closure */
+}

@@ -1,0 +1,3 @@
+class test5_type_mismatch {
+/* Error recovery: forced class closure */
+}

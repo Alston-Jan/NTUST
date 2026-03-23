@@ -1,0 +1,3 @@
+class test7_undeclared_var {
+/* Error recovery: forced class closure */
+}

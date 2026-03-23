@@ -1,0 +1,30 @@
+class for_loop {
+method public static void main(java.lang.String[])
+max_stack 15
+max_locals 15
+{
+sipush 0
+iload 0
+sipush 5
+isub
+iflt L0
+iconst_0
+goto L1
+L0:
+iconst_1
+L1:
+iload 0
+sipush 1
+iadd
+iload 0
+getstatic java.io.PrintStream java.lang.System.out
+invokevirtual void java.io.PrintStream.println(int)
+istore 0
+L2:
+ifeq L3
+istore 0
+goto L2
+L3:
+return
+}
+}

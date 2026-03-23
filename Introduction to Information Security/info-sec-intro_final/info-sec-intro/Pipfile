@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+pillow = "*"
+opencv-python = "*"
+torchvision = "*"
+tqdm = "*"
+sklearn = "*"
+scikit-learn = "*"
+
+[dev-packages]
+black = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"

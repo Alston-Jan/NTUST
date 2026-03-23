@@ -1,0 +1,47 @@
+Changes made to the scanner (Project2.l) from Project1.l:
+
+1. Added support for keywords and new tokens:
+   - Added reserved words: const, void, string, float, bool, true, false, return, foreach.
+   - Added control flow tokens: if, else, while, for.
+   - Added I/O related tokens: print, println, read.
+
+2. Added support for multi-character operators:
+   - Logical operators: &&, ||, !
+   - Comparison operators: <=, >=, ==, !=
+   - Arithmetic operators: +, -, *, /, %, ++, --
+
+3. Added support for single-character symbols:
+   - Delimiters: ; , : ( ) { } [ ] ..
+   - Assignment operator: =
+
+4. Modified numerical token rules:
+   - Added float number support with token FLOATNUM.
+   - Reused existing rule for INTNUM but now returning ival to parser.
+
+5. Added string token support:
+   - Recognized string literals using regular expressions with escape character support.
+   - Passed the stripped content (without quotes) via yylval.sval to parser.
+
+6. Added identifier rule:
+   - Recognized valid identifiers (alphabetic start + alphanumerics).
+   - Differentiated keywords from identifiers by matching reserved words first.
+
+7. Added line tracking and pretty output:
+   - Enabled `%option yylineno` to track line number.
+   - Implemented `print_line()` macro to output full line before each token.
+   - Maintained `current_line` and `col_index` to print complete source line.
+   - Ensured only one print per source line using `last_printed_line`.
+
+8. Added support for single-line comments:
+   - Lines starting with `//` are recognized and printed as `<COMMENT>` tokens.
+
+9. Added fallback rule:
+   - Any unmatched character is printed as an unknown token with context.
+
+10. Interfaced with the parser:
+   - Included `parser.tab.h` for token type definitions.
+   - Used `yylval` to return semantic values for ID, INTNUM, FLOATNUM, STRING.
+
+11. Minor cleanups and formatting:
+   - Removed redundant whitespace handling.
+   - Ensured `fflush(stdout)` after every print to guarantee real-time output.

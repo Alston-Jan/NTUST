@@ -1,0 +1,2 @@
+const bool flag = true;
+println flag;

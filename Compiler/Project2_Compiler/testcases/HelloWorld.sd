@@ -1,0 +1,9 @@
+/* 
+    This is a multi-line comment.
+    It describes the purpose of this program.
+    The program simply prints "Hello, World!".
+*/
+
+void main() {
+    println "Hello, World!";
+}

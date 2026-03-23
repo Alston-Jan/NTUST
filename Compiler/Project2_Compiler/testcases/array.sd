@@ -1,0 +1,25 @@
+const int size = 5;
+int numbers[5];
+int squares[5];
+
+void main() {
+    int i;
+
+    // 將 1~5 存入 numbers 陣列
+    for (i = 0; i < size; i++) {
+        numbers[i] = i + 1;
+    }
+
+    // 計算平方存入 squares 陣列
+    for (i = 0; i < size; i++) {
+        squares[i] = numbers[i] * numbers[i];
+    }
+
+    // 印出結果
+    for (i = 0; i < size; i++) {
+        print "Number: ";
+        print numbers[i];
+        print ", Square: ";
+        println squares[i];
+    }
+}

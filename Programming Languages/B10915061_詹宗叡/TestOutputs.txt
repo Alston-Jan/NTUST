@@ -1,0 +1,56 @@
+<Withdraw> John Smith, You has $1400.0 balance.
+
+Account <John Smith> now has $1400.0 balance
+
+EXCEPTION: Banking system throws a class BankingException with message: 
+	MESSAGE: Underfraft from checking account name:John Smith
+
+<Withdraw> William Hurt, You has $1100.0 balance.
+
+<Deposit> William Hurt, You has $1200.0 balance.
+
+<Withdraw> William Hurt, You has $1100.0 balance.
+
+<Deposit> William Hurt, You has $1199.0 balance.
+
+<Withdraw> William Hurt, You has $1099.0 balance.
+
+<Withdraw> William Hurt, You has $999.0 balance.
+
+<Withdraw> William Hurt, You has $899.0 balance.
+
+<Deposit> William Hurt, You has $998.0 balance.
+
+Number of days since last interest is 89
+Interest earned is 43.890410958904106
+Account <John Smith> now has $1543.890410958904 balance
+
+Number of months since last interest is 2
+Interest earned is 19.959999999999997
+Account <William Hurt> now has $1017.96 balance
+
+Number of months since last interest is 2
+Interest earned is 19.999999999999996
+Account <Woody Allison> now has $1020.0 balance
+
+Number of months since last interest is 2
+Interest earned is -29.999999999999996
+Account <Judi Foster> now has $-1530.0 balance
+
+Since your account has opened less than 12months, to withdraw from your account you need to pay 250 for fee
+<Withdraw> Woody Allison, You has $670.0 balance.
+
+Number of months since last interest is 9
+Interest earned is 80.39999999999999
+Account <Woody Allison> now has $750.4 balance
+
+EXCEPTION: Banking system throws a class BankingException with message: 
+	MESSAGE: Your balance is less than 0, you can't reduce amount from your account name <Judi Foster>
+
+Number of months since last interest is 12
+Interest earned is 120.0
+Account <Leung Yan Tung> now has $1120.0 balance
+
+Number of months since last interest is 13
+Interest earned is 120.0
+Account <Yan Tung> now has $1120.0 balance

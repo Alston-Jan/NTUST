@@ -1,0 +1,3 @@
+class shadowing_block {
+/* Error recovery: forced class closure */
+}
