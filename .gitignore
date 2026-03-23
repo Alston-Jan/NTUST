@@ -1,6 +1,8 @@
 # Build / IDE artifacts
 .vs/
+.vscode/
 build/
+build-*/
 x64/
 CMakeFiles/
 CMakeCache.txt
@@ -9,3 +11,10 @@ CMakeCache.txt
 *.exe
 *.out
 *.user
+*.ipch
+*.sqlite
+~$*
+.~lock.*
+
+# Keep Git metadata out when importing nested projects
+**/.git/
