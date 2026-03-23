@@ -18,5 +18,3 @@ Coursework and projects from NTUST.
 ## Notes
 
 - Course folders have been curated from local coursework.
-- Obvious build artifacts and temporary files were excluded where appropriate.
-- Some course folders may still contain original subfolder names from the source materials.
