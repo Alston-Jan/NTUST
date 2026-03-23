@@ -9,9 +9,3 @@ CMakeCache.txt
 *.exe
 *.out
 *.user
-
-# Oversized archives blocked by normal GitHub push (>100MB)
-電腦圖學導論實習/RollerCoasters/B10915061-Hw09-01.zip
-電腦圖學導論實習/RollerCoasters/B10915061-Hw10-01.zip
-電腦圖學導論實習/RollerCoasters/B10915061-Hw11-01.zip
-電腦圖學導論實習/RollerCoasters/B10915061-Hw12-01.zip
