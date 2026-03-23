@@ -1,7 +1,8 @@
 # NTUST
-Work by college
 
-## Course Materials
+Coursework and projects from NTUST.
+
+## Course Index
 
 - [Laboratory of Introduction to Computer Graphics](./Laboratory%20of%20Introduction%20to%20Computer%20Graphics)
 - [Object-Oriented Programming](./Object-Oriented%20Programming)
@@ -13,3 +14,9 @@ Work by college
 - [Operating Systems](./Operating%20Systems)
 - [Pattern Recognition](./Pattern%20Recognition)
 - [Digital Logic](./Digital%20Logic)
+
+## Notes
+
+- Course folders have been curated from local coursework.
+- Obvious build artifacts and temporary files were excluded where appropriate.
+- Some course folders may still contain original subfolder names from the source materials.
