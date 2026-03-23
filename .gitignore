@@ -1,0 +1,14 @@
+# Archives
+*.zip
+
+# Build / IDE artifacts
+.vs/
+build/
+x64/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.exe
+*.out
+*.user
