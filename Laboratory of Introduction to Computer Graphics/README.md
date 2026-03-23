@@ -2,13 +2,14 @@
 
 This folder contains coursework and projects for Laboratory of Introduction to Computer Graphics.
 
-## 目錄
+## Contents
 
 - `ImageEditing`
 - `MazeVisibility`
 - `RollerCoasters`
 - `GPU-CUDA`
 
-備註：
-- 保留原始 `.zip` 檔
-- 已排除常見編譯輸出與 IDE 暫存資料夾（如 `.vs`、`build`、`x64`）
+## Notes
+
+- Original `.zip` files are preserved.
+- Common IDE and build artifacts (such as `.vs`, `build`, and `x64`) are excluded.

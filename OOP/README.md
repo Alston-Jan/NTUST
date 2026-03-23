@@ -1,12 +1,13 @@
-# OOP
+# Object-Oriented Programming
 
-這個資料夾整理了 OOP 課程的作業與專案。
+This folder contains homework and projects for the Object-Oriented Programming course.
 
-## 內容
+## Contents
 
 - `HOMEWORK`
 - `OOP_Project`
 
-備註：
-- 已排除常見 IDE / 編譯輸出（如 `.git`、`.vs`、`x64`、`build`）
-- 保留原始程式碼與課程文件
+## Notes
+
+- Common IDE and build artifacts (such as `.git`, `.vs`, `x64`, and `build`) are excluded.
+- Source code and course documents are preserved.

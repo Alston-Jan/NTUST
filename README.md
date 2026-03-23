@@ -1,11 +1,7 @@
 # NTUST
 Work by college
 
-## 課程資料
+## Course Materials
 
-- [Laboratory of Introduction to Computer Graphics](./Laboratory of Introduction to Computer Graphics)
-
-## Course materials
-
-- [Laboratory of Introduction to Computer Graphics](./Laboratory of Introduction to Computer Graphics)
-- [OOP](./OOP)
+- [Laboratory of Introduction to Computer Graphics](./Laboratory%20of%20Introduction%20to%20Computer%20Graphics)
+- [Object-Oriented Programming](./OOP)
